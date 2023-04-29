@@ -22,18 +22,19 @@ body {
 }
 
 #main-area {
-    width: 920px;
+    width: 940px;
     margin: 0 auto;
-    padding: 10px;
-}
-
-#posts, #side {
-    background: white;
+    padding: 15px;
 }
 
 #posts {
     width: 660px;
     float: left;
+}
+
+#side {
+    width: 240px;
+    float: right;
 }
 
 .post {
@@ -42,9 +43,10 @@ body {
     background: white;
 }
 
-#side {
-    width: 240px;
-    float: right;
+.content-side {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 #baseboard {
@@ -74,6 +76,7 @@ a:hover {
     color: #f7b600;
     background: white;
     border-radius: 7px;
+    text-decoration: none;
 }
 
 h1 {
@@ -83,6 +86,12 @@ h1 {
 
 h2{ 
     color: #f7b600;
+}
+
+h3{ 
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
 }
 
 .white {
@@ -95,4 +104,10 @@ h2{
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 10px;
+}
+
+.post-side {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
 }
